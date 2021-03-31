@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Результат сложения</title>
+<title>Результат вычисления периметра</title>
 </head>
 <body>
-<h1>Результат сложения</h1>
+<h1>Результат вычисления периметра</h1>
 <h2>Ваши введеные данные:</h2>
-<p><strong>Первое слагаемое:</strong> ${first_result}</p>
-<p><strong>Второе слагаемое:</strong> ${second_result}</p>
+<p><strong>Длина основания:</strong> ${first_result}</p>
+<p><strong>Длина боковой стороны:</strong> ${second_result}</p>
 <p><strong>Результат:</strong> ${result}</p>
 
 <form action="${pageContext.request.contextPath}/Form.jsp">
