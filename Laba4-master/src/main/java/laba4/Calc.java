@@ -48,9 +48,18 @@ public class Calc extends HttpServlet {
 				first_try=0;
 				second_try=0;	
 			}
+			if (first_try > 0 & second_try > 0)
 			
+			{
 			result=first_try+second_try*2;
 			request.setAttribute("result", result);
+			}
+			else { 
+				String str = "Не правильный ввод данных";
+				request.setAttribute("result", str);
+				
+				
+			}
 		}
 		
 	}
