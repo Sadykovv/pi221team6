@@ -22,7 +22,7 @@ public class Calc extends HttpServlet {
 	private static class RequestCalc {
 		private final String first_calc;
 		private final String second_calc;
-		private int result;
+		private double result;
 						
 		private RequestCalc (String first, String second) {
 			this.first_calc = first;
@@ -38,11 +38,11 @@ public class Calc extends HttpServlet {
 		public void setAsRequestAttributesAndCalculate(HttpServletRequest request) {
 			request.setAttribute("first_result", first_calc);
 			request.setAttribute("second_result", second_calc);
-			int first_try;
-			int second_try;
+			double first_try;
+			double second_try;
 			try { 
-			first_try=Integer.parseInt(first_calc);
-			second_try=Integer.parseInt(second_calc);
+			first_try=Double.parseDouble(first_calc);
+			second_try=Double.parseDouble(second_calc);
 			}
 			catch (NumberFormatException e) {
 				first_try=0;
