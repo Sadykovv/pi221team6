@@ -55,7 +55,7 @@ public class Calc extends HttpServlet {
 			request.setAttribute("result", result);
 			}
 			else { 
-				String str = "Не правильный ввод данных";
+				String str = "Incorrect data entry";
 				request.setAttribute("result", str);
 				
 				
