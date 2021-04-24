@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Калькулятор - вычисление периметра равнобедренного треугольника</title>
+<title>Калькулятор - вычисление периметра равнобедренного треугольника в миллиметрах</title>
 </head>
 <body>
-<h1>Калькулятор - вычисление периметра равнобедренного треугольника</h1>
+<h1>Калькулятор - вычисление периметра равнобедренного треугольника в миллиметрах</h1>
     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <label for="first">Длина основания(мм):</label>
         <input type="text" name="first" id="first" value="${first}">
