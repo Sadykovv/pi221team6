@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name="Calc", urlPatterns="/JavaCalc") //ñâÿçûâàíèå ñåðâëåòà ñ URL
+@WebServlet(name="Calc", urlPatterns="/JavaCalc") //Ã±Ã¢Ã¿Ã§Ã»Ã¢Ã Ã­Ã¨Ã¥ Ã±Ã¥Ã°Ã¢Ã«Ã¥Ã²Ã  Ã± URL
 public class Calc extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -51,7 +51,7 @@ public class Calc extends HttpServlet {
 			if (first_try > 0 & second_try > 0)
 			
 			{
-			result=first_try+second_try*2;
+			result=(first_try+second_try*2)*10;
 			request.setAttribute("result", result);
 			}
 			else { 
