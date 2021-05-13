@@ -1,0 +1,24 @@
+[
+  {
+    "login": "coc",
+    "password": "coc",
+    "name":"John",
+    "city":"Berlin",
+    "cars":[
+      "audi",
+      "bmw"
+    ],
+    "job":"Teacher"
+  },
+  {
+    "login": "ayanami",
+    "password": "ayanami1",
+    "name":"Ray",
+    "city":"Oslo",
+    "cars":[
+      "VW",
+      "Toyata"
+    ],
+    "job":"Doctor"
+  }
+]
